@@ -1,0 +1,187 @@
+/* Style général du body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* En-tête */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4CAF50; /* Vert */
+    color: white;
+  }
+  
+  .header .logo-img {
+    width: 150px;
+  }
+  
+  .navigation ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation li {
+    margin-right: 30px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navigation a:hover {
+    color: #333;
+  }
+  
+  /* Formulaire de connexion de l'admin */
+  .admin-login {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .admin-login input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  .admin-login button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .admin-login button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Section des modèles */
+  .modeles {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .modeles h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  /* Conteneur des modèles */
+  .modeles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+    justify-items: center;
+  }
+  
+  /* Style des modèles */
+  .modele {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .modele img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #f4f4f4;
+  }
+  
+  .modele-info {
+    padding: 20px;
+  }
+  
+  .modele-info h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .modele-description {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .modele-prix {
+    font-size: 16px;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  .modele-availability {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .available {
+    color: green;
+  }
+  
+  .out-of-stock {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Outils admin */
+  .admin-tools {
+    margin-top: 20px;
+  }
+  
+  .admin-tools button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .admin-tools button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Formulaire d'ajout de modèle */
+  .add-model-form {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .add-model-form input, .add-model-form select {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  .add-model-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-model-form button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  
